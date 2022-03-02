@@ -1,0 +1,24 @@
+This a general outline to what each config item is related to:
+        "rawDataFolder": Location where the raw data is dumped into by user.
+        "templateFolder": Location of templates.
+        "uploadFolder": Box sync folder, wher stuff is uploaded.
+        "outsideFolder": Folder where all other folders are kept.
+        "excelDump": Place where excel macros dump their semi-finished data.
+        "verizonTemplateName": Name of Verizon excel template. 
+        "attTemplateName": Name of AT&T excel template.
+        "verizonMacroName": Name of Verizon macro inside of Verizon excel template.
+        "attMacroName": Name of AT&T macro inside of AT&T template.
+        "verizonVBArename": Name of semi-processed data. This is what the Verizon excel macro dumps out before it is renamed by the python program.
+        "attVBArename": Name of semi-processed data. This is what the AT&T excel macro dumps out before it is renamed by the python program.
+        "1stPartVerizonPythonRename": This is the first part of what the python program renames verizonVBArename.
+        "2ndPartVerizonPythonRename": This is the second part of what the python program renames verizonVBArename.
+        "1stPartATTPythonRename: This is the first part of what the python program renames attVBArename.
+        "2ndPartATTPythonRename": This is the second part of what the python program renames attVBArename.
+        "FinalSpot": This is where the program puts the processed data sheets before being uploaded to Box.
+        "excelDumpSpot": This is where excel dumps the semi-processed data.
+        "rawDataSpot": This is where the user puts the raw data. However, it is formatted for searching due to the *. If changing this, copy "rawDataSpotNoStar" and add "\\*". 
+        "rawDataSpotNoStar": This is where the user puts the raw data. It is not formatted for searching.
+        "templateSpot": Location of templates.
+        "outsideFolderSpot": Location of general folder that holds the program.
+        "verizonNameStart": The first piece of the raw Verizon data name downloaded from their servers. This is used as an identifier and as of 5/25/21, is "HAP"
+        "attNameStart": The first piece of the raw AT&T data name downloaded from their servers. This is used as an identifier and as of 5/25/21, is "fileExport"

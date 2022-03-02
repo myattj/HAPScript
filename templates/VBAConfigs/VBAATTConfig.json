@@ -1,0 +1,10 @@
+{
+        "identifier": "fileExport",
+        "cycleToDataColumn": "B",
+        "firstDeleteColumn": "C",
+        "ICCIDColumn": "A",
+        "sheetName": "Sheet0",
+        "saveLocation": "EDIT THIS",
+        "fileName": "SpencerHealthMMDDYYTotalCycleUsage(ATT).xlsx"
+
+}

@@ -1,0 +1,11 @@
+
+    {
+        "identifier": "HAP",
+        "usageColumn": "D",
+        "usageDataColumn": "C",
+        "deviceIdentifierColumn": "A",
+        "sheetName": "Sheet 1",
+        "duplicationColumn": "G",
+        "saveLocation": "EDIT THIS",
+        "fileName": "SpencerHealthMMDDYYDailyUsage(Verizon).xlsx"
+    }
